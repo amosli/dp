@@ -13,4 +13,21 @@ public class SimpleFactory {
 		}
 		return null;
 	}
+	
+	public static IProduct getProductByClassName(String className){
+		try {
+			Class<?> cls = Class.forName(className);
+			try {
+				IProduct newInstance =(IProduct) cls.newInstance();
+				return newInstance;
+			} catch (InstantiationException | IllegalAccessException e) {
+				e.printStackTrace();
+			}
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		return null;
+		
+	}
+	
 }
