@@ -27,7 +27,6 @@ public class SimpleFactory {
 			e.printStackTrace();
 		}
 		return null;
-		
 	}
 	
 }
