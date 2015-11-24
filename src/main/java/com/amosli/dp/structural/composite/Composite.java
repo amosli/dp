@@ -1,4 +1,4 @@
-package com.amosli.dp.composite;
+package com.amosli.dp.structural.composite;
 
 import java.util.ArrayList;
 import java.util.List;

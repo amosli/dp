@@ -1,4 +1,4 @@
-package com.amosli.dp.composite;
+package com.amosli.dp.structural.composite;
 
 public abstract class Component {
 	protected String name;

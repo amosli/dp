@@ -1,4 +1,4 @@
-package com.amosli.dp.bridge;
+package com.amosli.dp.structural.bridge;
 
 public class ConcreteImplementorA extends Implementor {
 
